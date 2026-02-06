@@ -1,3 +1,68 @@
 <resources>
-    <string name="app_name">Figma-appium</string>
+    <string name="app_name">Fashions</string>
+    
+    <!-- Splash Screen -->
+    <string name="app_tagline">My Life My Style</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome">Welcome!</string>
+    <string name="login_subtitle">please login or sign up to continue our app</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="or">or</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    
+    <!-- Sign Up Screen -->
+    <string name="create_account">Create an new account</string>
+    <string name="user_name">User Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="terms_agreement">By creating an account you have to agree with our them &amp; condication.</string>
+    
+    <!-- Success Screen -->
+    <string name="successful">Successful!</string>
+    <string name="success_message">You have successfully registered in our app and start working in it.</string>
+    <string name="start_shopping">Start Shopping</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_home">Welcome,</string>
+    <string name="our_fashions_app">Our Fashions App</string>
+    <string name="search_hint">Search...</string>
+    <string name="off_50">50% Off</string>
+    <string name="off_70">70% Off</string>
+    <string name="on_everything_today">On everything today</string>
+    <string name="with_code">With code:FSCREATION</string>
+    <string name="get_now">Get Now</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="view_all">View All</string>
+    <string name="home">Home</string>
+    
+    <!-- Product Details -->
+    <string name="roller_rabbit">Roller Rabbit</string>
+    <string name="vado_odelle_dress">Vado Odelle Dress</string>
+    <string name="review">Review</string>
+    <string name="available_in_stock">Avaliable in stok</string>
+    <string name="size">Size</string>
+    <string name="description">Description</string>
+    <string name="product_description">Get a little lift from these Sam Edelman sandals featuring ruched straps and leather lace-up ties, while a braided jute sole makes a fresh statement for summer.</string>
+    <string name="total_price">Total Price</string>
+    <string name="add_to_cart">Add to cart</string>
+    
+    <!-- Cart Screen -->
+    <string name="my_cart">My Cart</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="apply">Apply</string>
+    <string name="total">Total (%d item) :</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    
+    <!-- Product Names -->
+    <string name="marc_jacobs">The Marc Jacobs</string>
+    <string name="traveler_tote">Traveler Tote</string>
+    <string name="axel_arigato">Axel Arigato</string>
+    <string name="clean_90_sneakers">Clean 90 Triple Sneakers</string>
+    <string name="herschel_supply">Herschel Supply Co.</string>
+    <string name="daypack_backpack">Daypack Backpack</string>
 </resources>
