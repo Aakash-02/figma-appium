@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Design System Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primary_orange">#FEA903</color>
+    <color name="text_gray">#666666</color>
+    <color name="text_dark">#130F26</color>
+    <color name="border_gray">#CCCCCC</color>
+    <color name="light_green">#CADCA7</color>
+    <color name="dark_orange">#F79F1F</color>
+    <color name="divider_gray">#DDDDDD</color>
+    <color name="text_medium_gray">#888888</color>
+    <color name="background_light">#EEEEEE</color>
+    <color name="primary_yellow">#FFAB07</color>
+    <color name="accent_yellow">#F3A80C</color>
+    <color name="background_gray">#F3F4F5</color>
+    <color name="text_light_gray">#AAAAAA</color>
+    <color name="surface_gray">#F3F3F3</color>
+    
+    <!-- Status Bar and Navigation -->
+    <color name="status_bar">#000000</color>
+    
+    <!-- Transparent Colors -->
+    <color name="shadow_color">#1A000000</color>
+    <color name="overlay_dark">#80000000</color>
+    
+    <!-- Legacy colors for compatibility -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
 </resources>

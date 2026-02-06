@@ -1,3 +1,59 @@
 <resources>
-    <string name="app_name">Figma-appium</string>
+    <string name="app_name">Fashions</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_title">Fashions</string>
+    <string name="splash_subtitle">My Life My Style</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome">Welcome,</string>
+    <string name="our_fashions_app">Our Fashions App</string>
+    <string name="search_hint">Search…</string>
+    <string name="percent_off">%s Off</string>
+    <string name="on_everything_today">On everything today</string>
+    <string name="with_code">With code:%s</string>
+    <string name="get_now">Get Now</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="view_all">View All</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Product Details -->
+    <string name="product_reviews">(%d Review)</string>
+    <string name="available_in_stock">Available in stock</string>
+    <string name="size">Size</string>
+    <string name="description">Description</string>
+    <string name="total_price">Total Price</string>
+    <string name="add_to_cart">Add to cart</string>
+    
+    <!-- Cart -->
+    <string name="my_cart">My Cart</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="apply">Apply</string>
+    <string name="total_items">Total (%d item) :</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    
+    <!-- Product Names -->
+    <string name="product_marc_jacob">The Marc Jacobs</string>
+    <string name="product_marc_jacob_desc">Traveler Tote</string>
+    <string name="product_axel">Axel Arigato</string>
+    <string name="product_axel_desc">Clean 90 Triple Sneakers</string>
+    <string name="product_roller_rabbit">Roller Rabbit</string>
+    <string name="product_roller_rabbit_desc">Vado Odelle Dress</string>
+    <string name="product_herschel">Herschel Supply Co.</string>
+    <string name="product_herschel_desc">Daypack Backpack</string>
+    
+    <!-- Prices -->
+    <string name="price_format">$%.2f</string>
+    
+    <!-- Sizes -->
+    <string name="size_s">S</string>
+    <string name="size_m">M</string>
+    <string name="size_l">L</string>
+    <string name="size_xl">XL</string>
+    <string name="size_xxl">XXL</string>
 </resources>

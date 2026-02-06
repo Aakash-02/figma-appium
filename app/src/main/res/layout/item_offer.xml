@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="@dimen/corner_radius_large"
+    app:cardElevation="0dp">
+
+    <FrameLayout
+        android:id="@+id/offerBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_light">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvOfferDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="50% Off"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvOfferDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="On everything today"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/tvOfferCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="With code:FSCREATION"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/btnGetNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_button_primary"
+                android:fontFamily="sans-serif-medium"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="10dp"
+                android:text="@string/get_now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivOfferImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>
